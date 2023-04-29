@@ -19,13 +19,13 @@ class CustomException(Exception):
 
     def __str__(self):
         return self.error_message    
-    
-'''
+'''    
 if __name__=="__main__":
-    logging.info("Logging has started")
+    logging.info("logging has started")
+
     try:
         a=1/0
-    except Exception as e:
-        logging.info('Dicision by zero') 
-        raise CustomException(e,sys)
+    except CustomException as e:
+        logging.info("error has occured")
+        raise CustomException(e,sys)    
 '''
