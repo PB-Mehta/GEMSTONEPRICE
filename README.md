@@ -1,6 +1,7 @@
 
 # GEMSTONE PRICE PREDICTION PROJECT -Precisied and Accurate
 
+
 This project is aimed at developing a machine learning model that can accurately predict the price of diamonds based on various features like carat, cut, color, clarity, and more.
 
 We have used various machine learning algorithms such as Linear Regression,ElasticNet,Lasso,Ridge After extensive testing and evaluation, we have selected the Linear Regression algorithm as the best fit for this particular problem.
@@ -15,7 +16,10 @@ Hope this project will be helpful to diamond sellers, buyers, and enthusiasts in
 
 ## Acknowledgements
 We would like to express our gratitude to the following people who have contributed to the success of this project:
-_KRISH C NAIK SIR_
+
+_Krish C Naik Sir_
+_Shudhanshu Sir_
+_Sunny Savita Sir_
 
 The Gemstone dataset providers for making their data available to us and enabling us to create this project.
 The contributors of the open-source libraries used in this project, including Scikit-learn, Pandas, NumPy, and Matplotlib
